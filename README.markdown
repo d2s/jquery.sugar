@@ -26,7 +26,7 @@ TODO: Write description of usage.
 
 ## The MIT License ##
 
-Copyright (c) 2009 [Derek Reynolds](https://github.com/derekr)
+Copyright © 2009 [Derek Reynolds](https://github.com/derekr)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
