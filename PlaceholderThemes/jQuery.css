@@ -1,6 +1,6 @@
 /*
-	@theme PHP Placeholder
-	@placeholder js
+  @theme PHP Placeholder
+  @placeholder js
 */
 
 /*
@@ -10,17 +10,17 @@
 */
 
 @base {
-	color: #333;
-	background-color: #fff;
+  color: #333;
+  background-color: #fff;
 }
 
 jQuery.function > name {
-	color: #4e279a;
-	font-weight: bold;
+  color: #4e279a;
+  font-weight: bold;
 }
 
 jQuery.object.operator {
-	color: #699d36;
+  color: #699d36;
 }
 
 jQuery.selector operator

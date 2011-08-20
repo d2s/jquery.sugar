@@ -6,16 +6,16 @@
 -->
 <codesense>
 
-	<provider>
-		<selector>js, js *</selector>
-		<completions>com.gridlee.js.jQuery.api</completions>
-		<complete-match>\.([a-zA-Z0-9-_])+</complete-match>
-	</provider>
+  <provider>
+    <selector>js, js *</selector>
+    <completions>com.gridlee.js.jQuery.api</completions>
+    <complete-match>\.([a-zA-Z0-9-_])+</complete-match>
+  </provider>
 
     <provider>
-		<selector>js, js *</selector>
-		<completions>com.gridlee.js.jQuery.api.jQueryFunctions</completions>
-		<complete-match>\$\.([a-zA-Z0-9-_])+</complete-match>
-	</provider>
+    <selector>js, js *</selector>
+    <completions>com.gridlee.js.jQuery.api.jQueryFunctions</completions>
+    <complete-match>\$\.([a-zA-Z0-9-_])+</complete-match>
+  </provider>
 
 </codesense>
