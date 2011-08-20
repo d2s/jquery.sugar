@@ -20,7 +20,7 @@
                 <include collection="literal.string"/>
             </subzones>
         </zone>
-        
+
         <zone name="identifier.jQuery.ajax.function">
             <starts-with>
                 <expression>(((\$)(\.)(ajax(Setup)?|get(JSON|Script)?|post))|((\.)(ajax(Complete|Error|Send|Stop|Success)+|serialize(Arry)?)))(\()</expression>
@@ -39,7 +39,7 @@
                 <include collection="delimiter.jQuery"/>
             </subzones>
         </zone>
-        
+
         <zone name="identifier.jQuery.event.function">
             <starts-with>
                 <expression>(\.)(ready|bind|one|(trigger(Handler)?)|unbind|live|die|hover|toggle|blur|change|click|dblclick|error|focus|keydown|keypress|keyup|load|(mouse(down|enter|leave|move|out|over|up)+)|resize|scroll|select|submit|unload|show|hide|(slide(Down|Up|Toggle)+)|(fade(In|Out|To)+)|animate|stop)(\()</expression>
@@ -57,7 +57,7 @@
                 <include collection="delimiter.jQuery"/>
             </subzones>
         </zone>
-        
+
         <zone name="identifier.jQuery.manipulation.function">
             <starts-with>
                 <expression>(\.)(append(To)?|prepend(To)?|after|before|insert(After|Before)+|wrap(All|Inner)?|replace(With|All)+|empty|remove|clone|css|offset|position|scroll(Top|Left)+|height|width|(inner|outer)(Width|Height))(\()</expression>
@@ -75,7 +75,7 @@
                 <include collection="delimiter.jQuery"/>
             </subzones>
         </zone>
-        
+
         <zone name="identifier.jQuery.data.function">
             <starts-with>
                 <expression>(\.)(data|removeData|((de)?queue)|attr|removeAttr|((add|has|remove|toggle)+Class)|html|text|filter|is|map|not|slice|add|children|closest|contents|find|(next(All)?)|offSetParent|parent(s)?|prev(All)?|siblings|andSelf|end)(\()</expression>
@@ -93,7 +93,7 @@
                 <include collection="delimiter.jQuery"/>
             </subzones>
         </zone>
-        
+
         <zone name="identifier.jQuery.object-accessors.function">
             <starts-with>
                 <expression>(\.)(each|size|eq|get|index)(\()</expression>
@@ -112,7 +112,7 @@
             </subzones>
         </zone>
     </zones>
-    
+
     <library>
         <collection name="delimiter.jQuery">
             <zone name="delimiter.jQuery.comma">
@@ -125,32 +125,32 @@
                 <expression>}</expression>
             </zone>
         </collection>
-        
-        <collection name="selectors.jQuery">        
+
+        <collection name="selectors.jQuery">
             <zone name="operator.selector.jQuery.id">
                 <expression>(#)([a-zA-Z-_0-9]*)</expression>
                 <capture number="1" name="operator.hash" />
                 <capture number="2" name="id.name" />
             </zone>
-            
+
             <zone name="operator.selector.jQuery.class">
                 <expression>(\.)([a-zA-Z-_0-9]*)</expression>
                 <capture number="1" name="operator.hash" />
                 <capture number="2" name="class.name" />
             </zone>
-            
+
             <zone name="operator.selector.jQuery.child">
                 <expression>\></expression>
             </zone>
-            
+
             <zone name="operator.selector.jQuery.next">
                 <expression>\+</expression>
             </zone>
-            
+
             <zone name="operator.selector.jQuery.sibling">
                 <expression>\~</expression>
             </zone>
-            
+
             <zone name="operator.selector.jQuery.child.filter.parameters">
                 <starts-with>
                     <expression>(:(nth-child)\()</expression>
@@ -163,12 +163,12 @@
                     <include collection="selectors.jQuery" />
                 </subzones>
             </zone>
-            
+
             <zone name="operator.selector.jQuery.child.filter">
                 <expression>:((first|last|only)-child)</expression>
                 <capture number="1" name="filter.name" />
             </zone>
-            
+
             <zone name="operator.selector.jQuery.basic.filter.parameters">
                 <starts-with>
                     <expression>(:(not|eq|gt|lt)\()</expression>
@@ -181,12 +181,12 @@
                     <include collection="selectors.jQuery" />
                 </subzones>
             </zone>
-            
+
             <zone name="operator.selector.jQuery.basic.filter">
                 <expression>:(first|last|even|odd|header|animated)</expression>
                 <capture number="1" name="filter.name" />
             </zone>
-            
+
             <zone name="operator.selector.jQuery.content.filter.parameters">
                 <starts-with>
                     <expression>(:(contains|has)\()</expression>
@@ -199,22 +199,22 @@
                     <include collection="selectors.jQuery" />
                 </subzones>
             </zone>
-            
+
             <zone name="operator.selector.jQuery.content.filter">
                 <expression>:(empty|parent)</expression>
                 <capture number="1" name="filter.name" />
             </zone>
-            
+
             <zone name="operator.selector.jQuery.visibility.filter">
                 <expression>:(hidden|visible)</expression>
                 <capture number="1" name="filter.name" />
             </zone>
-            
+
             <zone name="operator.selector.jQuery.form.filter">
                 <expression>:(input|text|password|radio|checkbox|submit|image|reset|button|file|hidden|enabled|disabled|checked|selected)</expression>
                 <capture number="1" name="filter.name" />
             </zone>
-            
+
             <zone name="operator.selector.jQuery.attribute.filter">
                 <expression>(\[)([a-zA-Z]*)((\^)|(\$)|(\*))(=)([a-zA-Z0-9-_]*)(\])</expression>
                 <capture number="1" name="delimiter.bracket.open" />
@@ -226,13 +226,13 @@
                 <capture number="8" name="value" />
                 <capture number="9" name="delimiter.bracket.close" />
             </zone>
-            
+
             <zone name="operator.selector.jQuery.element">
                 <expression>[a-zA-Z]+</expression>
                 <capture number="0" name="element.name" />
             </zone>
         </collection>
-        
+
         <collection name="literal.string">
             <zone name="literal.string.quoted.single">
                 <starts-with>
@@ -253,7 +253,7 @@
                     </zone>
                 </subzones>
             </zone>
-            
+
             <zone name="literal.string.quoted.double">
                 <starts-with>
                     <expression>"</expression>

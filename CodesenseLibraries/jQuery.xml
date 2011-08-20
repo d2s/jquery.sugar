@@ -17,7 +17,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".size">
 			<behavior>
 				<append-dynamic>
@@ -26,10 +26,10 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".selector" />
 		<completion string=".context" />
-		
+
 		<completion string=".eq">
 			<behavior>
 				<append-dynamic>
@@ -38,7 +38,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".get">
 			<behavior>
 				<append-dynamic>
@@ -47,7 +47,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".index">
 			<behavior>
 				<append-dynamic>
@@ -56,7 +56,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<!-- Data -->
 		<completion string=".data">
 			<behavior>
@@ -66,7 +66,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".removeData">
 			<behavior>
 				<append-dynamic>
@@ -75,7 +75,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".queue">
 			<behavior>
 				<append-dynamic>
@@ -84,7 +84,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".dequeue">
 			<behavior>
 				<append-dynamic>
@@ -93,7 +93,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<!-- Attr -->
 		<completion string=".attr">
 			<behavior>
@@ -103,7 +103,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".removeAttr">
 			<behavior>
 				<append-dynamic>
@@ -112,7 +112,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<!-- Class -->
 		<completion string=".addClass">
 			<behavior>
@@ -122,7 +122,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".hasClass">
 			<behavior>
 				<append-dynamic>
@@ -131,7 +131,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".removeClass">
 			<behavior>
 				<append-dynamic>
@@ -140,7 +140,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".toggleClass">
 			<behavior>
 				<append-dynamic>
@@ -149,7 +149,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<!-- HTML -->
 		<completion string=".html">
 			<behavior>
@@ -159,7 +159,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<!-- Text -->
 		<completion string=".text">
 			<behavior>
@@ -169,7 +169,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<!-- Filtering -->
 		<completion string=".filter">
 			<behavior>
@@ -179,7 +179,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".is">
 			<behavior>
 				<append-dynamic>
@@ -188,7 +188,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".map">
 			<behavior>
 				<append-dynamic>
@@ -197,7 +197,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".not">
 			<behavior>
 				<append-dynamic>
@@ -206,7 +206,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".slice">
 			<behavior>
 				<append-dynamic>
@@ -215,7 +215,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<!-- Finding -->
 		<completion string=".add">
 			<behavior>
@@ -225,7 +225,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".children">
 			<behavior>
 				<append-dynamic>
@@ -234,7 +234,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".closest">
 			<behavior>
 				<append-dynamic>
@@ -243,7 +243,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".contents">
 			<behavior>
 				<append-dynamic>
@@ -252,7 +252,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".find">
 			<behavior>
 				<append-dynamic>
@@ -261,7 +261,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".next">
 			<behavior>
 				<append-dynamic>
@@ -270,7 +270,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".nextAll">
 			<behavior>
 				<append-dynamic>
@@ -279,7 +279,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".offsetParent">
 			<behavior>
 				<append-dynamic>
@@ -288,7 +288,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".parent">
 			<behavior>
 				<append-dynamic>
@@ -297,7 +297,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".parents">
 			<behavior>
 				<append-dynamic>
@@ -306,7 +306,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".prev">
 			<behavior>
 				<append-dynamic>
@@ -315,7 +315,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".prevAll">
 			<behavior>
 				<append-dynamic>
@@ -324,7 +324,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".siblings">
 			<behavior>
 				<append-dynamic>
@@ -333,7 +333,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<!-- Chaining -->
 		<completion string=".andSelf">
 			<behavior>
@@ -343,7 +343,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".end">
 			<behavior>
 				<append-dynamic>
@@ -352,7 +352,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<!-- Manipulation -->
 		<!-- Inserting Inside -->
 		<completion string=".append">
@@ -363,7 +363,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".appendTo">
 			<behavior>
 				<append-dynamic>
@@ -372,7 +372,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".prepend">
 			<behavior>
 				<append-dynamic>
@@ -381,7 +381,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".prependTo">
 			<behavior>
 				<append-dynamic>
@@ -390,7 +390,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<!-- Inserting Outside -->
 		<completion string=".after">
 			<behavior>
@@ -400,7 +400,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".before">
 			<behavior>
 				<append-dynamic>
@@ -409,7 +409,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".insertAfter">
 			<behavior>
 				<append-dynamic>
@@ -418,7 +418,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".insertBefore">
 			<behavior>
 				<append-dynamic>
@@ -427,7 +427,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<!-- Inserting Around -->
 		<completion string=".wrap">
 			<behavior>
@@ -437,7 +437,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".wrapAll">
 			<behavior>
 				<append-dynamic>
@@ -446,7 +446,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".wrapInner">
 			<behavior>
 				<append-dynamic>
@@ -455,7 +455,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<!-- Replacing -->
 		<completion string=".replaceWith">
 			<behavior>
@@ -465,7 +465,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".replaceAll">
 			<behavior>
 				<append-dynamic>
@@ -474,7 +474,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<!-- Removing -->
 		<completion string=".empty">
 			<behavior>
@@ -484,7 +484,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".remove">
 			<behavior>
 				<append-dynamic>
@@ -493,7 +493,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<!-- Copying -->
 		<completion string=".clone">
 			<behavior>
@@ -503,7 +503,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<!-- CSS -->
 		<completion string=".css">
 			<behavior>
@@ -513,7 +513,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<!-- Positioning -->
 		<completion string=".offset">
 			<behavior>
@@ -523,7 +523,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".position">
 			<behavior>
 				<append-dynamic>
@@ -532,7 +532,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".scrollTop">
 			<behavior>
 				<append-dynamic>
@@ -541,7 +541,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".scrollLeft">
 			<behavior>
 				<append-dynamic>
@@ -550,7 +550,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<!-- Height and Width -->
 		<completion string=".height">
 			<behavior>
@@ -560,7 +560,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".width">
 			<behavior>
 				<append-dynamic>
@@ -569,7 +569,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".innerHeight">
 			<behavior>
 				<append-dynamic>
@@ -578,7 +578,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".innerWidth">
 			<behavior>
 				<append-dynamic>
@@ -587,7 +587,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".outerHeight">
 			<behavior>
 				<append-dynamic>
@@ -596,7 +596,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".outerWidth">
 			<behavior>
 				<append-dynamic>
@@ -605,7 +605,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<!-- Events -->
 		<!-- Page Load -->
 		<completion string=".ready">
@@ -616,7 +616,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<!-- Event Handling -->
 		<completion string=".bind">
 			<behavior>
@@ -626,7 +626,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".one">
 			<behavior>
 				<append-dynamic>
@@ -635,7 +635,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".trigger">
 			<behavior>
 				<append-dynamic>
@@ -644,7 +644,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".triggerHandler">
 			<behavior>
 				<append-dynamic>
@@ -653,7 +653,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".unbind">
 			<behavior>
 				<append-dynamic>
@@ -662,7 +662,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<!-- Live Events -->
 		<completion string=".live">
 			<behavior>
@@ -672,7 +672,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".die">
 			<behavior>
 				<append-dynamic>
@@ -681,7 +681,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<!-- Interaction Helpers -->
 		<completion string=".hover">
 			<behavior>
@@ -691,7 +691,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".toggle">
 			<behavior>
 				<append-dynamic>
@@ -700,7 +700,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<!-- Event Helpers -->
 		<completion string=".blur">
 			<behavior>
@@ -710,7 +710,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".change">
 			<behavior>
 				<append-dynamic>
@@ -719,7 +719,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".click">
 			<behavior>
 				<append-dynamic>
@@ -728,7 +728,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".dblclick">
 			<behavior>
 				<append-dynamic>
@@ -737,7 +737,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".error">
 			<behavior>
 				<append-dynamic>
@@ -746,7 +746,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".focus">
 			<behavior>
 				<append-dynamic>
@@ -755,7 +755,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".keydown">
 			<behavior>
 				<append-dynamic>
@@ -764,7 +764,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".keypress">
 			<behavior>
 				<append-dynamic>
@@ -773,7 +773,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".keyup">
 			<behavior>
 				<append-dynamic>
@@ -782,7 +782,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".load">
 			<behavior>
 				<append-dynamic>
@@ -791,7 +791,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".mousedown">
 			<behavior>
 				<append-dynamic>
@@ -800,7 +800,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".mouseenter">
 			<behavior>
 				<append-dynamic>
@@ -809,7 +809,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".mouseleave">
 			<behavior>
 				<append-dynamic>
@@ -818,7 +818,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".mousemove">
 			<behavior>
 				<append-dynamic>
@@ -827,7 +827,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".mouseout">
 			<behavior>
 				<append-dynamic>
@@ -836,7 +836,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".mouseover">
 			<behavior>
 				<append-dynamic>
@@ -845,7 +845,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".mouseup">
 			<behavior>
 				<append-dynamic>
@@ -854,7 +854,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".resize">
 			<behavior>
 				<append-dynamic>
@@ -863,7 +863,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".scroll">
 			<behavior>
 				<append-dynamic>
@@ -872,7 +872,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".select">
 			<behavior>
 				<append-dynamic>
@@ -881,7 +881,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".submit">
 			<behavior>
 				<append-dynamic>
@@ -890,7 +890,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".unload">
 			<behavior>
 				<append-dynamic>
@@ -899,7 +899,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<!-- Effect -->
 		<!-- Basics -->
 		<completion string=".show">
@@ -910,7 +910,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".hide">
 			<behavior>
 				<append-dynamic>
@@ -919,7 +919,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<!-- Sliding -->
 		<completion string=".slideDown">
 			<behavior>
@@ -929,7 +929,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".slideUp">
 			<behavior>
 				<append-dynamic>
@@ -938,7 +938,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".slideToggle">
 			<behavior>
 				<append-dynamic>
@@ -947,7 +947,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<!-- Fading -->
 		<completion string=".fadeIn">
 			<behavior>
@@ -957,7 +957,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".fadeOut">
 			<behavior>
 				<append-dynamic>
@@ -966,7 +966,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".fadeTo">
 			<behavior>
 				<append-dynamic>
@@ -975,7 +975,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<!-- Custom -->
 		<completion string=".animate">
 			<behavior>
@@ -985,7 +985,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".stop">
 			<behavior>
 				<append-dynamic>
@@ -994,7 +994,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<!-- Ajax Events -->
 		<completion string=".ajaxComplete">
 			<behavior>
@@ -1004,7 +1004,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".ajaxError">
 			<behavior>
 				<append-dynamic>
@@ -1013,7 +1013,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".ajaxSend">
 			<behavior>
 				<append-dynamic>
@@ -1022,7 +1022,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".ajaxStop">
 			<behavior>
 				<append-dynamic>
@@ -1031,7 +1031,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".ajaxSuccess">
 			<behavior>
 				<append-dynamic>
@@ -1040,7 +1040,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<!-- Misc -->
 		<completion string=".serialize">
 			<behavior>
@@ -1050,7 +1050,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string=".serializeArray">
 			<behavior>
 				<append-dynamic>
@@ -1059,9 +1059,9 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
     </set>
-    
+
     <set name="com.gridlee.js.jQuery.api.jQueryFunctions">
         <!-- Ajax -->
         <completion string="$.ajax">
@@ -1072,7 +1072,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string="$.get">
 			<behavior>
 				<append-dynamic>
@@ -1081,7 +1081,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string="$.getJSON">
 			<behavior>
 				<append-dynamic>
@@ -1090,7 +1090,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string="$.getScript">
 			<behavior>
 				<append-dynamic>
@@ -1099,7 +1099,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string="$.post">
 			<behavior>
 				<append-dynamic>
@@ -1108,7 +1108,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
 		<completion string="$.ajaxSetup">
 			<behavior>
 				<append-dynamic>
@@ -1117,7 +1117,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		
+
     </set>
-    
+
 </codesense>

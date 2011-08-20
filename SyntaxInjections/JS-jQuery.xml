@@ -9,5 +9,5 @@
     <injection name="com.gridlee.injections.js.jquery" selector="js, js *" action="attach-after-target">
         <include syntax="js.jQuery" />
 	</injection>
-	
+
 </injections>
